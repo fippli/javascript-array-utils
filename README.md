@@ -1,0 +1,29 @@
+# JavaScript Array Utils
+Help functions for JavaScript Arrays
+
+# How to use
+
+## sortObjectArray
+Sorts array with objects.
+
+Arguments | Description | Example
+----------|-------------|--------
+Object array | Array with javascript objects | [{name: "Optimus prime", type: "Transformer"}, {name: "Batman", type: "Superhero"}, {name: "Magikarp", type: "Pokémon"}]
+Key | Object key that the array should be sorted on | "name"
+Reverse | Boolean indicating if the sorted order should be reversed | true
+
+Example:
+```JavaScript
+const characters = [
+    {name: "Optimus prime", type: "Transformer"}, 
+    {name: "Batman", type: "Superhero"}, 
+    {name: "Magikarp", type: "Pokémon"} 
+];
+
+sortObjectArray( characters, "name", false );
+// Returns:
+// [{name: "Batman", type: "Superhero"}, 
+//  {name: "Magikarp", type: "Pokémon"} 
+//  {name: "Optimus prime", type: "Transformer"}]
+         
+```

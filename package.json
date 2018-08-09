@@ -1,0 +1,19 @@
+{
+  "name": "@fippli/array-utils",
+  "version": "1.0.0",
+  "description": "Help functions for JavaScript arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fippli/javascript-array-utils.git"
+  },
+  "author": "Filip Johansson <filip.johansson@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fippli/javascript-array-utils/issues"
+  },
+  "homepage": "https://github.com/fippli/javascript-array-utils#readme"
+}

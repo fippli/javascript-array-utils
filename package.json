@@ -1,6 +1,6 @@
 {
   "name": "@fippli/array-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Help functions for JavaScript arrays",
   "main": "index.js",
   "scripts": {

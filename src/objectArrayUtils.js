@@ -53,10 +53,9 @@ const distinctKeyArray = ( objectArray, key ) => {
 const modifyObjectArray = ( objectArray, key, modifier ) => {
 
     return objectArray.map( obj => {
-        return {
-            ...obj,
-            [ key ]: modifier( obj[ key ] )
-        }
+        const newObj = Object.assign({}, obj);
+        newObj[ key ] = modifier( obj[ key ] );
+        return newObj;
     } )
 
 };

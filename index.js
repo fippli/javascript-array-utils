@@ -5,6 +5,7 @@ const objectArrayUtils = require( "./src/objectArrayUtils" );
 
 // Arrays
 exports.distinctArray = arrayUtils.distinctArray;
+exports.arraysEqual = arrayUtils.arraysEqual;
 
 // Object arrays
 exports.sortObjectArray = objectArrayUtils.sortObjectArray;

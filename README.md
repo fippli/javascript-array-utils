@@ -1,6 +1,10 @@
 # JavaScript Array Utils
 Help functions for JavaScript Arrays
 
+## [!]
+This package might be a mess and be broken from time to time.
+Will try to make it stable but no guarantees.
+
 # Installation
 ```
 npm install @fippli/array-utils

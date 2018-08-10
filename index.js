@@ -1,18 +1,17 @@
-
 const arrayUtils = require( "./src/arrayUtils" );
 const objectArrayUtils = require( "./src/objectArrayUtils" );
 
+module.exports = {
+    // Arrays
+    distinctArray: arrayUtils.distinctArray,
+    inArray: arrayUtils.inArray,
+    removeFromArray: arrayUtils.removeFromArray,
 
-// Arrays
-exports.distinctArray = arrayUtils.distinctArray;
-exports.inArray = arrayUtils.inArray;
-exports.removeFromArray = removeFromArray;
-
-// Object arrays
-exports.sortObjectArray = objectArrayUtils.sortObjectArray;
-exports.objectArrayDifference = objectArrayUtils.objectArrayDifference;
-exports.distinctKeyArray = objectArrayUtils.distinctKeyArray;
-exports.modifyObjectArray = objectArrayUtils.modifyObjectArray;
-exports.filterOnKey = objectArrayUtils.filterOnKey;
-exports.filterCombo = objectArrayUtils.filterCombo;
-
+    // Object arrays
+    sortObjectArray: objectArrayUtils.sortObjectArray,
+    objectArrayDifference: objectArrayUtils.objectArrayDifference,
+    distinctKeyArray: objectArrayUtils.distinctKeyArray,
+    modifyObjectArray: objectArrayUtils.modifyObjectArray,
+    filterOnKey: objectArrayUtils.filterOnKey,
+    filterCombo: objectArrayUtils.filterCombo,
+};

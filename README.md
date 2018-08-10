@@ -1,6 +1,15 @@
 # JavaScript Array Utils
 Help functions for JavaScript Arrays
 
+# Installation
+```
+npm install @fippli/array-utils
+```
+or
+```
+yarn add @fippli/array-utils
+```
+
 # How to use
 
 ## sortObjectArray
@@ -27,3 +36,5 @@ sortObjectArray( characters, "name", false );
 //  {name: "Optimus prime", type: "Transformer"}]
          
 ```
+
+# Bug reports and feature requests are welcome :)
